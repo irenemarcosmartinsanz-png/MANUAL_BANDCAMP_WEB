@@ -50,4 +50,15 @@ defineProps({
   color: #666;
   font-size: 0.95rem;
 }
+.ver-mas {
+  margin-top: auto;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.ver-mas:hover {
+  color: #3D38F5;
+}
 </style>
