@@ -45,17 +45,9 @@ function cerrarMenu() { menuAbierto.value = false }
   align-items: center;
   justify-content: space-between;
 }
-.logo-text {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: #000;
-  transition: color 0.3s ease;
-}
-.logo-text:hover {
-  color: #E0FF00;
-  background: #000;
-  padding: 0.3rem 0.6rem;
-  border-radius: 6px;
+.logo-img {
+  height: 32px;
+  display: block;
 }
 .nav-links {
   display: flex;
