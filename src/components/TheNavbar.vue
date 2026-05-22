@@ -47,6 +47,13 @@ function cerrarMenu() { menuAbierto.value = false }
   font-size: 1.25rem;
   font-weight: 800;
   color: #000;
+  transition: color 0.3s ease;
+}
+.logo-text:hover {
+  color: #E0FF00;
+  background: #000;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
 }
 .nav-links {
   display: flex;
