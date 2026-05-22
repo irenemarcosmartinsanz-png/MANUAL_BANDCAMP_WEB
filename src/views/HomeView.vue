@@ -3,11 +3,7 @@
 
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-shapes">
-        <div class="shape shape1"></div>
-        <div class="shape shape2"></div>
-        <div class="shape shape3"></div>
-      </div>
+     
       <div class="hero-content">
         <p class="hero-label">Manual de Marca</p>
         <h1 class="hero-title">Bandcamp</h1>
@@ -17,14 +13,9 @@
         </p>
         <div class="hero-btns">
           <RouterLink to="/tipografia" class="btn btn-primary">Explorar manual</RouterLink>
-          <a href="https://bandcamp.com" target="_blank" class="btn btn-outline">Ir a Bandcamp</a>
         </div>
       </div>
-      <div class="hero-logo-wrap">
-        <div class="hero-logo-circle">
-          <span class="hero-logo-letra">b</span>
-        </div>
-      </div>
+      
     </section>
 
     <!-- Secciones del manual -->
