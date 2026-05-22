@@ -53,13 +53,7 @@
 import { ref } from 'vue'
 import ColorSwatch from '../components/ColorSwatch.vue'
 
-var escala = ref([
-  { nombre: 'Título principal', size: '3rem',    weight: '800' },
-  { nombre: 'Subtítulo',        size: '2rem',    weight: '700' },
-  { nombre: 'Sección',          size: '1.5rem',  weight: '600' },
-  { nombre: 'Cuerpo',           size: '1rem',    weight: '400' },
-  { nombre: 'Texto pequeño',    size: '0.85rem', weight: '400' }
-])
+
 
 var normas = ref([
   { tipo: 'correcto',   titulo: 'Usar la fuente en sus pesos oficiales (regular y bold).' },
@@ -126,28 +120,18 @@ var normas = ref([
 .muestra-grande.ligera { font-weight: 400; }
 .tipo-nombre { font-size: 0.9rem; color: #666; margin-top: 1rem; }
 
-.escala {
-  max-width: 800px;
+.tipo-imagenes {
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.escala-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 2rem;
-  background: white;
+.tipo-img {
+  width: 100%;
   border-radius: 14px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  flex-wrap: wrap;
-  gap: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
-.escala-muestra { color: #000; line-height: 1; }
-.escala-info { text-align: right; }
-.escala-nombre { display: block; font-weight: 600; font-size: 0.9rem; }
-.escala-datos { font-size: 0.8rem; color: #666; font-family: monospace; }
 
 .normas-grid {
   max-width: 900px;
