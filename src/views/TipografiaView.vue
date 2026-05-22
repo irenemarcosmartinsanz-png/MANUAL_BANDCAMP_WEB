@@ -73,3 +73,103 @@ var normas = ref([
   { tipo: 'incorrecto', titulo: 'No reducir el texto por debajo de 12px en digital.' }
 ])
 </script>
+
+<style scoped>
+.page { padding-top: 72px; }
+
+.hero {
+  background: linear-gradient(to bottom, #000 60%, #1A1A1A 100%);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  color: #E0FF00;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.1rem;
+  color: #CFCFCF;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.seccion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.seccion.gris {
+  background: #F8F8F8;
+  max-width: 100%;
+  padding: 5rem 2rem;
+}
+.seccion-titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.seccion-desc { text-align: center; color: #666; margin-bottom: 3rem; }
+
+.tipo-demo {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.tipo-bloque { text-align: center; }
+.muestra-grande {
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #000;
+}
+.muestra-grande.ligera { font-weight: 400; }
+.tipo-nombre { font-size: 0.9rem; color: #666; margin-top: 1rem; }
+
+.escala {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.escala-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.escala-muestra { color: #000; line-height: 1; }
+.escala-info { text-align: right; }
+.escala-nombre { display: block; font-weight: 600; font-size: 0.9rem; }
+.escala-datos { font-size: 0.8rem; color: #666; font-family: monospace; }
+
+.normas-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.norma-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+.norma-item.correcto   { background: #f0fdf4; border: 1px solid #bbf7d0; }
+.norma-item.incorrecto { background: #fff1f2; border: 1px solid #fecdd3; }
+.norma-badge { font-weight: 800; font-size: 1rem; flex-shrink: 0; }
+.norma-badge.correcto   { color: #166534; }
+.norma-badge.incorrecto { color: #9f1239; }
+</style>
