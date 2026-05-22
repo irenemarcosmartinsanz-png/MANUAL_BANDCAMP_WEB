@@ -133,7 +133,9 @@ var colores = ref([
   z-index: 1;
   background: #E0FF00;
   padding: 3.5rem 4rem;
-  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-label {
