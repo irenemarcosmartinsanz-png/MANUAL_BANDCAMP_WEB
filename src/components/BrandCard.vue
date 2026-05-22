@@ -1,10 +1,10 @@
 <template>
   <article class="brand-card">
     <div class="card-icon">
-      <span>{{ icono }}</span>
+      <i :class="['fas', icono]"></i>
     </div>
     <h3>{{ titulo }}</h3>
-    <p>{{ descripcion }}</p>
+    <RouterLink v-if="enlace" :to="enlace" class="ver-mas">Ver más</RouterLink>
   </article>
 </template>
 
