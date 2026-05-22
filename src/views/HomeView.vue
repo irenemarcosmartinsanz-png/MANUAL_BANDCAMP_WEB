@@ -131,9 +131,8 @@ var colores = ref([
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 560px;
   background: #E0FF00;
-  padding: 2.5rem;
+  padding: 3.5rem 4rem;
   border-radius: 16px;
 }
 
