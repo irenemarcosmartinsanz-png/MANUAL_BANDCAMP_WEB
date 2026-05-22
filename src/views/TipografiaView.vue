@@ -26,17 +26,14 @@
     <section class="seccion gris">
       <h2 class="seccion-titulo">Escala Tipográfica</h2>
       <p class="seccion-desc">Jerarquía visual clara para títulos, subtítulos y cuerpo de texto.</p>
-      <div class="escala">
-        <div v-for="nivel in escala" :key="nivel.nombre" class="escala-item">
-          <p class="escala-muestra" :style="{ fontSize: nivel.size, fontWeight: nivel.weight }">
-            bandcamp.
-          </p>
-          <div class="escala-info">
-            <span class="escala-nombre">{{ nivel.nombre }}</span>
-            <span class="escala-datos">{{ nivel.size }} · {{ nivel.weight }}</span>
-          </div>
-        </div>
-      </div>
+      <div class="tipo-imagenes">
+  <img src="/tipobandcamp.png" alt="Tipografía Bandcamp" class="tipo-img" />
+  <img src="/tipobandcamp2.png" alt="Tipografía Bandcamp 2" class="tipo-img" />
+  <img src="/tipobandcamp3.png" alt="Tipografía Bandcamp 3" class="tipo-img" />
+  <img src="/tipobandcamp4.png" alt="Tipografía Bandcamp 4" class="tipo-img" />
+  <img src="/tipobandcamp5.png" alt="Tipografía Bandcamp 5" class="tipo-img" />
+  <img src="/tipobandcamp6.png" alt="Tipografía Bandcamp 6" class="tipo-img" />
+</div>
     </section>
 
     <section class="seccion">
