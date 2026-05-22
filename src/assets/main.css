@@ -1,3 +1,23 @@
+
+
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('/fonts/PPTelegraf-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('/fonts/PPTelegraf-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'PPTelegraf';
+  src: url('/fonts/PPTelegraf-Ultralight.otf') format('opentype');
+  font-weight: 200;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -14,7 +34,7 @@
   --color-gray-200: #E5E5E5;
   --color-gray-600: #666666;
   --color-gray-800: #1A1A1A;
-  --font-main: 'Segoe UI', sans-serif;
+  --font-main: 'PPTelegraf', sans-serif;
   --transition: 0.3s ease;
 }
 
