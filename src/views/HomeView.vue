@@ -104,8 +104,7 @@ var colores = ref([
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6rem 2rem 4rem;
-  gap: 3rem;
+  padding: 0;
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
@@ -132,10 +131,11 @@ var colores = ref([
   position: relative;
   z-index: 1;
   background: #E0FF00;
-  padding: 3.5rem 4rem;
+  padding: 6rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 0 0 50%;
 }
 
 .hero-label {
