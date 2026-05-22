@@ -2,7 +2,9 @@
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-logo">
-        <RouterLink to="/" class="logo-text">Bandcamp</RouterLink>
+        <RouterLink to="/">
+  <img src="/bandcampnegro.png" alt="Bandcamp" class="logo-img" />
+</RouterLink>
       </div>
       <ul class="nav-links" :class="{ active: menuAbierto }">
         <li><RouterLink to="/" @click="cerrarMenu">Inicio</RouterLink></li>
