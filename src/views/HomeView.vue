@@ -100,7 +100,7 @@ var colores = ref([
 /* ---- Hero ---- */
 .hero {
   min-height: 90vh;
-  background: linear-gradient(135deg, #E0FF00 0%, #c8e800 60%, #afd400 100%);
+  background: url('/bandcamp_movimiento.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
