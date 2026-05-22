@@ -128,7 +128,14 @@ var colores = ref([
   50% { transform: translateY(-22px); }
 }
 
-.hero-content { position: relative; z-index: 1; max-width: 560px; }
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 560px;
+  background: #E0FF00;
+  padding: 2.5rem;
+  border-radius: 16px;
+}
 
 .hero-label {
   font-size: 0.85rem;
