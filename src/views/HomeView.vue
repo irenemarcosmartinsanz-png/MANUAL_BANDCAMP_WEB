@@ -287,8 +287,11 @@ var colores = ref([
 }
 .onda-wrap {
   background: #000;
-  border-radius: 16px;
   overflow: hidden;
   line-height: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 </style>
