@@ -102,10 +102,10 @@ var colores = ref([
   min-height: 90vh;
   background: url('/bandcamp_movimiento.png') center/cover no-repeat;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   padding: 0;
-  flex-wrap: wrap;
+  height: 90vh;
   position: relative;
   overflow: hidden;
 }
