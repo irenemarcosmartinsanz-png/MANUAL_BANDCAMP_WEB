@@ -61,7 +61,7 @@
 <section class="seccion lookfeel">
   <img src="/lookfeel.png" alt="Look and feel" class="lookfeel-img" />
   <img src="/textolookfeel.png" alt="Texto look and feel" class="lookfeel-img" />
-  <img src="/look_and_feel_onda.png" alt="Look and feel onda" class="lookfeel-img" />
+  <img src="/look_and_feel_onda2.png" alt="Look and feel onda" class="lookfeel-img" />
 </section>
 
   </div>
