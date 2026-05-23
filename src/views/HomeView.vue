@@ -177,7 +177,7 @@ var colores = ref([
 
 .hero-logo-wrap {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   position: relative;
   z-index: 1;
