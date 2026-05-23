@@ -27,17 +27,9 @@
     </section>
 
     <section class="seccion gris">
-      <h2 class="seccion-titulo">Espacio de Seguridad</h2>
-      <p class="seccion-desc">El logo debe tener siempre un margen mínimo alrededor para que respire correctamente.</p>
-      <div class="espacio-demo">
-        <div class="espacio-exterior">
-          <div class="espacio-interior">
-            <span>bandcamp</span>
-          </div>
-        </div>
-        <p class="espacio-label">Zona de seguridad mínima: 4x alrededor del logo</p>
-      </div>
-    </section>
+  <h2 class="seccion-titulo">Espacio de Seguridad</h2>
+  <img src="/reticula.png" alt="Retícula Bandcamp" class="reticula-img" />
+</section>
 
     <section class="seccion">
       <h2 class="seccion-titulo">Normas de Uso</h2>
@@ -182,4 +174,10 @@ var normas = ref([
 .norma-icono { font-weight: 800; font-size: 1rem; flex-shrink: 0; }
 .norma-item.correcto .norma-icono { color: #166534; }
 .norma-item.incorrecto .norma-icono { color: #9f1239; }
+
+.reticula-img {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 16px;
+}
 </style>
