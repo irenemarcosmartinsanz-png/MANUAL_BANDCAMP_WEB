@@ -20,7 +20,7 @@
         <div class="logo-caja fondo-blanco">
           <span class="logo-texto negro">Bandcamp</span>
         </div>
-        <div class="logo-caja fondo-azulo">
+        <div class="logo-caja fondo-azul">
           <span class="logo-texto blanco">Bandcamp</span>
         </div>
       </div>
