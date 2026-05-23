@@ -12,7 +12,7 @@
       <h2 class="seccion-titulo verde"> Do's — Qué sí hacer</h2>
       <div class="ejemplos-grid">
         <div v-for="item in dos" :key="item.titulo" class="ejemplo correcto">
-          <div class="ejemplo-icono">{{ item.icono }}</div>
+          
           <div class="ejemplo-texto">
             <h3>{{ item.titulo }}</h3>
             <p>{{ item.desc }}</p>
@@ -26,7 +26,7 @@
       <h2 class="seccion-titulo rojo"> Don'ts — Qué no hacer</h2>
       <div class="ejemplos-grid">
         <div v-for="item in donts" :key="item.titulo" class="ejemplo incorrecto">
-          <div class="ejemplo-icono">{{ item.icono }}</div>
+          
           <div class="ejemplo-texto">
             <h3>{{ item.titulo }}</h3>
             <p>{{ item.desc }}</p>
