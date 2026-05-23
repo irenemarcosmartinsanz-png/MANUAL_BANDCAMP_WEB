@@ -57,6 +57,12 @@
       </div>
     </section>
 
+    <!-- Look and feel -->
+<section class="seccion lookfeel">
+  <img src="/lookfeel.png" alt="Look and feel" class="lookfeel-img" />
+  <img src="/textolookfeel.png" alt="Texto look and feel" class="lookfeel-img" />
+</section>
+
   </div>
 </template>
 
@@ -262,4 +268,19 @@ var colores = ref([
   .hero-logo-circle { width: 180px; height: 180px; }
   .hero-logo-letra { font-size: 7rem; }
 }
+
+/* ---- Look and feel ---- */
+.seccion.lookfeel {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.lookfeel-img {
+  width: 100%;
+  border-radius: 16px;
+}
+
 </style>
