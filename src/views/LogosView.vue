@@ -176,8 +176,9 @@ var normas = ref([
 .norma-item.incorrecto .norma-icono { color: #9f1239; }
 
 .reticula-img {
-  width: 100%;
-  margin-top: 2rem;
+  width: 40%;
+  display: block;
+  margin: 2rem auto 0;
   border-radius: 16px;
 }
 </style>
