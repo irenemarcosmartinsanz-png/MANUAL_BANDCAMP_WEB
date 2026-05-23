@@ -118,7 +118,7 @@ var normas = ref([
   margin-top: 2rem;
 }
 .logo-caja {
-  width: 280px;
+  width: 220px;
   height: 140px;
   border-radius: 18px;
   display: flex;
