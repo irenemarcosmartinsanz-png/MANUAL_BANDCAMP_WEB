@@ -12,13 +12,16 @@
       <h2 class="seccion-titulo">Logo Principal</h2>
       <div class="logo-demo">
         <div class="logo-caja fondo-lima">
-          <span class="logo-texto negro">bandcamp</span>
+          <span class="logo-texto negro">Bandcamp</span>
         </div>
         <div class="logo-caja fondo-negro">
-          <span class="logo-texto blanco">bandcamp</span>
+          <span class="logo-texto blanco">Bandcamp</span>
         </div>
         <div class="logo-caja fondo-blanco">
-          <span class="logo-texto negro">bandcamp</span>
+          <span class="logo-texto negro">Bandcamp</span>
+        </div>
+        <div class="logo-caja fondo-azulo">
+          <span class="logo-texto blanco">Bandcamp</span>
         </div>
       </div>
     </section>
@@ -124,6 +127,7 @@ var normas = ref([
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 .fondo-lima { background: #E0FF00; }
+.fondo-azul { background: #3D38F5; }
 .fondo-negro { background: #000000; }
 .fondo-blanco { background: #FFFFFF; border: 1px solid #E5E5E5; }
 .logo-texto {
